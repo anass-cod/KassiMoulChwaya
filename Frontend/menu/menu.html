@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./menu.css">
+    <title>menu</title>
+</head>
+
+<body>
+    <header>
+        <button onclick="location.href='../Home/KassiMoulChawaya.html'" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <h2>menu de Kassi Moul Chawaya</h2>
+
+    </header>
+    <div id="error-container" class="error-container" role="alert">
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Une erreur s’est produite, veuillez réessayer.</p>
+        <button type="button" aria-label="إغلاق رسالة الخطأ" onclick="closeAlret()">
+            &times;
+        </button>
+    </div>
+    <section>
+        <nav>
+            <div class="search-content">
+                <input type="text" id="search" placeholder="Recherche" onkeyup="isFidevalue()">
+                <button onclick="debutSearch()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="filtre-content">
+                <h2>Filtre : </h2>
+                <select id="categorie">
+                </select>
+            </div>
+            <button onclick="location.href='../panier/panier.html'" class="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+
+            <div class="content-alert">
+                <div class="alert" id="alert">
+                    Plat ajouté au panier !
+                </div>
+            </div>
+        </nav>
+        <div id="cards" class="cards">
+
+
+
+
+
+        </div>
+    </section>
+    <script src="./menu.js"></script>
+    <script src="../Ensemble.js"></script>
+</body>
+
+</html>

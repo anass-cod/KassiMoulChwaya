@@ -1,0 +1,368 @@
+{
+"Tacos": [
+  {
+    "id": 1,
+    "name": "Tacos Mixte",
+    "price": 25,
+    "description": "Tacos mixte accompagné de frites.",
+    "img": "../imgs/Tacos/TacosMixte.png",
+    "pricesTaill": {
+      "N": 25,
+      "XL": 35,
+      "XXL": 45
+    }
+  },
+  {
+    "id": 2,
+    "name": "Tacos Poulet",
+    "price": 30,
+    "description": "Tacos au poulet accompagné de frites.",
+    "img": "../imgs/Tacos/TacosPoulet.png",
+    "pricesTaill": {
+      "N": 30,
+      "XL": 40,
+      "XXL": 50
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tacos Viande Hachée",
+    "price": 25,
+    "description": "Tacos à la viande hachée accompagné de frites.",
+    "img": "../imgs/Tacos/TacosViandeHachee.png",
+    "pricesTaill": {
+      "N": 25,
+      "XL": 35,
+      "XXL": 45
+    }
+  },
+  {
+    "id": 4,
+    "name": "Tacos Merguez",
+    "price": 25,
+    "description": "Tacos aux merguez accompagné de frites.",
+    "img": "../imgs/Tacos/TacosMerguez.png",
+    "pricesTaill": {
+      "N": 25,
+      "XL": 35,
+      "XXL": 45
+    }
+  },
+  {
+    "id": 5,
+    "name": "Tacos Nuggets",
+    "price": 25,
+    "description": "Tacos aux nuggets accompagné de frites.",
+    "img": "../imgs/Tacos/TacosNuggets.png",
+    "pricesTaill": {
+      "N": 25,
+      "XL": 35,
+      "XXL": 45
+    }
+  },
+  {
+    "id": 6,
+    "name": "Tacos Cordon Bleu",
+    "price": 25,
+    "description": "Tacos au cordon bleu accompagné de frites.",
+    "img": "../imgs/Tacos/TacosCordonBleu.png",
+    "pricesTaill": {
+      "N": 25,
+      "XL": 35,
+      "XXL": 45
+    }
+  },
+  {
+    "id": 7,
+    "name": "Tacos Crispy",
+    "price": 30,
+    "description": "Tacos crispy accompagné de frites.",
+    "img": "../imgs/Tacos/TacosCrispy.png",
+    "pricesTaill": {
+      "N": 30,
+      "XL": 40,
+      "XXL": 50
+    }
+  }
+  ],
+  "Pizzas": [
+    {
+      "id": 10,
+      "name": "Pizza Margarita",
+      "price": 20,
+      "description": "Pizza Margarita.",
+      "img": "../imgs/Pizzas/PizzaMargarita.png"
+    },
+    {
+      "id": 11,
+      "name": "Pizza Thon",
+      "price": 27,
+      "description": "Pizza au thon.",
+      "img": "../imgs/Pizzas/PizzaThon.png"
+    },
+    {
+      "id": 12,
+      "name": "Pizza Viande Hachée",
+      "price": 30,
+      "description": "Pizza à la viande hachée.",
+      "img": "../imgs/Pizzas/PizzaViandeHachee.png"
+    },
+    {
+      "id": 13,
+      "name": "Pizza Poulet",
+      "price": 35,
+      "description": "Pizza au poulet.",
+      "img": "../imgs/Pizzas/PizzaPoulet.png"
+    },
+    {
+      "id": 14,
+      "name": "Pizza Jambon",
+      "price": 35,
+      "description": "Pizza au jambon.",
+      "img": "../imgs/Pizzas/PizzaJambon.png"
+    },
+    {
+      "id": 15,
+      "name": "Pizza Végétarienne",
+      "price": 30,
+      "description": "Pizza végétarienne.",
+      "img": "../imgs/Pizzas/PizzaVegetarienne.png"
+    },
+    {
+      "id": 16,
+      "name": "Pizza Mixte",
+      "price": 40,
+      "description": "Pizza mixte.",
+      "img": "../imgs/Pizzas/PizzaMixte.png"
+    },
+    {
+      "id": 17,
+      "name": "Pizza Fruits de Mer",
+      "price": 50,
+      "description": "Pizza aux fruits de mer.",
+      "img": "../imgs/Pizzas/PizzaFruitsDeMer.png"
+    }
+  ],
+  "Paninis": [
+    {
+      "id": 18,
+      "name": "Panini Mixte",
+      "price": 15,
+      "description": "Panini mixte.",
+      "img": "../imgs/Paninis/PaniniMixte.png"
+    },
+    {
+      "id": 19,
+      "name": "Panini Poulet",
+      "price": 15,
+      "description": "Panini au poulet.",
+      "img": "../imgs/Paninis/PaniniPoulet.png"
+    },
+    {
+      "id": 20,
+      "name": "Panini Viande Hachée",
+      "price": 15,
+      "description": "Panini à la viande hachée.",
+      "img": "../imgs/Paninis/PaniniViandeHachee.png"
+    },
+    {
+      "id": 21,
+      "name": "Panini Merguez",
+      "price": 15,
+      "description": "Panini aux merguez.",
+      "img": "../imgs/Paninis/PaniniMerguez.png"
+    },
+    {
+      "id": 22,
+      "name": "Panini Nuggets",
+      "price": 15,
+      "description": "Panini aux nuggets.",
+      "img": "../imgs/Paninis/PaniniNuggets.png"
+    },
+    {
+      "id": 23,
+      "name": "Panini Cordon Bleu",
+      "price": 15,
+      "description": "Panini au cordon bleu.",
+      "img": "../imgs/Paninis/PaniniCordonBleu.png"
+    },
+    {
+      "id": 24,
+      "name": "Panini Crispy",
+      "price": 20,
+      "description": "Panini crispy.",
+      "img": "../imgs/Paninis/PaniniCrispy.png"
+    }
+  ],
+  "Pasticcios": [
+    {
+      "id": 25,
+      "name": "Pasticcio Mixte",
+      "price": 30,
+      "description": "Pasticcio mixte.",
+      "img": "../imgs/Pasticcios/PasticcioMixte.png"
+    },
+    {
+      "id": 26,
+      "name": "Pasticcio Poulet",
+      "price": 35,
+      "description": "Pasticcio au poulet.",
+      "img": "../imgs/Pasticcios/PasticcioPoulet.png"
+    },
+    {
+      "id": 27,
+      "name": "Pasticcio Viande Hachée",
+      "price": 30,
+      "description": "Pasticcio à la viande hachée.",
+      "img": "../imgs/Pasticcios/PasticcioViandeHachee.png"
+    },
+    {
+      "id": 28,
+      "name": "Pasticcio Merguez",
+      "price": 30,
+      "description": "Pasticcio aux merguez.",
+      "img": "../imgs/Pasticcios/PasticcioMerguez.png"
+    },
+    {
+      "id": 29,
+      "name": "Pasticcio Nuggets",
+      "price": 30,
+      "description": "Pasticcio aux nuggets.",
+      "img": "../imgs/Pasticcios/PasticcioNuggets.png"
+    },
+    {
+      "id": 30,
+      "name": "Pasticcio Cordon Bleu",
+      "price": 30,
+      "description": "Pasticcio au cordon bleu.",
+      "img": "../imgs/Pasticcios/PasticcioCordonBleu.png"
+    }
+  ],
+  "Bocadillos": [
+    {
+      "id": 31,
+      "name": "Bocadillo Mortadella",
+      "price": 10,
+      "description": "Bocadillo à la mortadelle.",
+      "img": "../imgs/Bocadillos/BocadilloMortadella.png"
+    },
+    {
+      "id": 32,
+      "name": "Bocadillo Thon",
+      "price": 15,
+      "description": "Bocadillo au thon.",
+      "img": "../imgs/Bocadillos/BocadilloThon.png"
+    },
+    {
+      "id": 33,
+      "name": "Bocadillo Tortilla",
+      "price": 14,
+      "description": "Bocadillo à la tortilla.",
+      "img": "../imgs/Bocadillos/BocadilloTortilla.png"
+    },
+    {
+      "id": 34,
+      "name": "Bocadillo Chamali",
+      "price": 20,
+      "description": "Bocadillo Chamali.",
+      "img": "../imgs/Bocadillos/BocadilloChamali.png"
+    },
+    {
+      "id": 35,
+      "name": "Bocadillo Viande Hachée",
+      "price": 22,
+      "description": "Bocadillo à la viande hachée.",
+      "img": "../imgs/Bocadillos/BocadilloViandeHachee.png"
+    },
+    {
+      "id": 36,
+      "name": "Bocadillo Poulet",
+      "price": 22,
+      "description": "Bocadillo au poulet.",
+      "img": "../imgs/Bocadillos/BocadilloPoulet.png"
+    },
+    {
+      "id": 37,
+      "name": "Bocadillo Saucisse",
+      "price": 22,
+      "description": "Bocadillo à la saucisse.",
+      "img": "../imgs/Bocadillos/BocadilloSaucisse.png"
+    }
+  ],
+  "Sandwichs": [
+    {
+      "id": 38,
+      "name": "Sandwich Mda3am",
+      "price": 20,
+      "description": "Sandwich Mda3am accompagné de frites.",
+      "img": "../imgs/Sandwichs/SandwichMda3am.png"
+    },
+    {
+      "id": 39,
+      "name": "Sandwich Mixte",
+      "price": 15,
+      "description": "Sandwich mixte accompagné de frites.",
+      "img": "../imgs/Sandwichs/SandwichMixte.png"
+    },
+    {
+      "id": 40,
+      "name": "Sandwich Poulet",
+      "price": 15,
+      "description": "Sandwich au poulet accompagné de frites.",
+      "img": "../imgs/Sandwichs/SandwichPoulet.png"
+    },
+    {
+      "id": 41,
+      "name": "Sandwich Viande Hachée",
+      "price": 15,
+      "description": "Sandwich à la viande hachée accompagné de frites.",
+      "img": "../imgs/Sandwichs/SandwichViandeHachee.png"
+    }
+  ],
+  "Extras": [
+    {
+      "id": 42,
+      "name": "Tiramissu",
+      "price": 15,
+      "description": "Dessert Tiramissu.",
+      "img": "../imgs/Extras/Tiramissu.png"
+    },
+    {
+      "id": 43,
+      "name": "Kechtouta",
+      "price": 25,
+      "description": "Dessert Kechtouta.",
+      "img": "../imgs/Extras/Kechtouta.png"
+    }
+  ],
+  "Boissons": [
+    {
+      "id": 44,
+      "name": "Coca Cola",
+      "price": 5,
+      "description": "Canette de Coca Cola.",
+      "img": "../imgs/Boissons/CocaCola.png"
+    },
+    {
+      "id": 45,
+      "name": "Fanta",
+      "price": 5,
+      "description": "Canette de Fanta.",
+      "img": "../imgs/Boissons/Fanta.png"
+    },
+    {
+      "id": 46,
+      "name": "Sprite",
+      "price": 5,
+      "description": "Canette de Sprite.",
+      "img": "../imgs/Boissons/Sprite.png"
+    },
+    {
+      "id": 47,
+      "name": "Eau Sidi Ali",
+      "price": 5,
+      "description": "Bouteille d'eau minérale Sidi Ali.",
+      "img": "../imgs/Boissons/EauSidiAli.png"
+    }
+  ]
+}
