@@ -31,14 +31,14 @@ async function classAndActive(id, item, categorie, idItem, taill, parent) {
 let setim = null
 async function commender(id, catygory, taill) {
 
-    let dataPanier = localStorage.dataPanier != null ? JSON.parse(localStorage.dataPanier) : []
+    let PanierKassiChwaya = localStorage.PanierKassiChwaya != null ? JSON.parse(localStorage.PanierKassiChwaya) : []
     if (setim != null) {
         clearTimeout(setim)
     }
     let trv = false
     let index = null
-    for (let i = 0; i < dataPanier.length; i++) {
-        if (dataPanier[i].id === id || dataPanier[i].id === `${id}(${taill})`) {
+    for (let i = 0; i < PanierKassiChwaya.length; i++) {
+        if (PanierKassiChwaya[i].id === id || PanierKassiChwaya[i].id === `${id}(${taill})`) {
             trv = true
             index = i
         }
@@ -47,8 +47,8 @@ async function commender(id, catygory, taill) {
     let alert = document.getElementById('alert')
 
     if (trv) {
-        dataPanier[index].quantity += 1
-        localStorage.dataPanier = JSON.stringify(dataPanier)
+        PanierKassiChwaya[index].quantity += 1
+        localStorage.PanierKassiChwaya = JSON.stringify(PanierKassiChwaya)
 
     } else {
         let data = await getData()
@@ -57,7 +57,7 @@ async function commender(id, catygory, taill) {
             if (data != "Error") {
                 if (taill === undefined) {
                     produit.quantity = 1
-                    dataPanier.push(produit)
+                    PanierKassiChwaya.push(produit)
                 } else {
                     let object = {
                         id: `${id}(${taill})`,
@@ -67,9 +67,9 @@ async function commender(id, catygory, taill) {
                         img : produit.img
 
                     }
-                    dataPanier.push(object)
+                    PanierKassiChwaya.push(object)
                 }
-                localStorage.dataPanier = JSON.stringify(dataPanier)
+                localStorage.PanierKassiChwaya = JSON.stringify(PanierKassiChwaya)
             } else {
                 document.getElementById("error-container").classList.add("active")
                 return
