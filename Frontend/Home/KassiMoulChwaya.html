@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="../imgs/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Kassi Moul Chwaya</title>
+</head>
+
+<body>
+    <div id="error-container" class="error-container" role="alert">
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Une erreur s’est produite, veuillez réessayer.</p>
+        <button type="button" aria-label="إغلاق رسالة الخطأ" onclick="closeAlret()">
+            &times;
+        </button>
+    </div>
+    <section class="hero" id="home">
+        <header>
+
+            <img src="../imgs/Logo.png" alt="Chwaya">
+
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+            <ul id="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="content-alert">
+                <div class="alert" id="alert">
+                    Plat ajouté au panier !
+                </div>
+            </div>
+        </header>
+        <div class="hero-content">
+            <h2>Bienvenue chez</h2>
+            <h1>Kassi Moul Chwaya</h1>
+            <h3>Le goût qui fait la différence !</h3>
+    <p>
+    Découvrez nos délicieux tacos, pizzas, paninis, sandwichs et bien plus encore !
+</p>
+            <button onclick="location.href='#menu'">voir menu</button>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="cards-container">
+            <div class="voirPlas">
+                <a href="../menu/menu.html">voir tous les plas</a>
+            </div>
+
+            <div id="cards" class="cards">
+
+                <div class="product-info" id="parent12">
+                    <img src="../imgs/Pizzas/PizzaViandeHachee.png" alt="Pizza Viande Hachée">
+                    <h3>Pizza Viande Hachée </h3>
+                    <p>Pizza à la viande hachée. </p>
+                    <span class="price">30DH</span>
+
+                    <button onclick="commender(12 , 'Pizzas' , undefined)">Commander</button>
+                </div>
+
+                <div class="product-info" id="parent3">
+                    <img src="../imgs/Tacos/TacosViandeHachee.png" alt="Tacos Viande Hachée">
+                    <h3>Tacos Viande Hachée (N)</h3>
+                    <p>Tacos à la viande hachée accompagné de frites. </p>
+                    <span class="price">25DH</span>
+                    <div class="Taill" id="div3"><button class="active"
+                            onclick="classAndActive('div3' , this , 'Tacos'  , 3 , 'N', 'parent3')">N</button><button
+                            onclick="classAndActive('div3' , this , 'Tacos'  , 3 , 'XL', 'parent3')">XL</button><button
+                            onclick="classAndActive('div3' , this , 'Tacos'  , 3 , 'XXL', 'parent3')">XXL</button></div>
+                    <button onclick="commender(3 , 'Tacos' , 'N')">Commander</button>
+                </div>
+
+                <div class="product-info" id="parent19">
+                    <img src="../imgs/Paninis/PaniniPoulet.png" alt="Panini Poulet">
+                    <h3>Panini Poulet </h3>
+                    <p>Panini au poulet. </p>
+                    <span class="price">15DH</span>
+
+                    <button onclick="commender(19 , 'Paninis' , undefined)">Commander</button>
+                </div>
+                <div class="product-info" id="parent32">
+                    <img src="../imgs/Bocadillos/BocadilloThon.png" alt="Bocadillo Thon">
+                    <h3>Bocadillo Thon </h3>
+                    <p>Bocadillo au thon. </p>
+                    <span class="price">15DH</span>
+
+                    <button onclick="commender(32 , 'Bocadillos' , undefined)">Commander</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="about-image">
+                <img src="../imgs/Logo.png" alt="Chwaya">
+            </div>
+
+            <div class="about-content">
+
+                <h2>Bienvenue chez Kassi Moul Chwaya</h2>
+
+                <p>
+                    Découvrez notre menu varié composé de délicieux tacos,
+                    pizzas, paninis, pasticcios, bocadillos et sandwichs,
+                    préparés avec soin à partir d'ingrédients savoureux
+                    pour satisfaire toutes vos envies.
+                </p>
+
+                <button onclick="location.href='#contact'" class="btn">
+                    Nous contacter
+                </button>
+
+            </div>
+            
+        </div>
+
+    </section>
+    <section id="contact" class="contact">
+
+        <div class="contact-title">
+
+            <p>
+                Une question ou une commande ?
+                Nous sommes à votre disposition.
+            </p>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="cardsContact">
+            <div class="contact-card">
+
+                <div class="icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </div>
+
+                <h3>WhatsApp</h3>
+
+                <p>
+                    Contactez-nous directement
+                    pour passer votre commande.
+                </p>
+
+                <button onclick="wathsape()" class="contact-btn">
+                    Contacter
+                </button>
+
+            </div>
+
+
+            <!-- Email -->
+            <div class="contact-card">
+
+                <div class="icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <h3>Email</h3>
+
+                <p>
+                    Envoyez-nous votre message
+                    par email.
+                </p>
+
+                <button onclick="email()" class="contact-btn">
+                    Envoyer un email
+                </button>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <img src="../imgs/Logo.png" alt="Chwaya">
+
+                <p>
+                    Le goût toujours au rendez-vous ! 
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Navigation</h3>
+
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+
+                <p>Téléphone 1 : 06 57 59 33 74</p>
+                <p>Téléphone 2 : 06 91 51 61 91</p>
+                <p>Horaires : 12:00 - 01:00</p>
+                <div class="social-icons">
+
+
+                    <a href="https://wa.me/212657593374" target="_blank" class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a target="_blank"
+                        href=""
+                        class="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kassi_moul_chwaya/#" target="_blank"
+                        class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Chwaya. Tous droits réservés.</p>
+        </div>
+
+    </footer>
+    <script src="./script.js"></script>
+    <script src="../Ensemble.js"></script>
+</body>
+
+</html>
